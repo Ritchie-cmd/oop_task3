@@ -3,7 +3,7 @@ class Avengers{
   final String heroName;
   int _attackpower;
 
-  //CONSTRUCTOR
+  //CONSTRUCTOR //parameter
   Avengers({required this.name, required this.heroName, int attackpower = 1000}): this._attackpower = attackpower;
 
   //getter A getter is like a window that lets people LOOK at your private data, but they can't CHANGE
