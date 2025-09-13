@@ -10,6 +10,6 @@ class Thor extends Avengers{
       print('invalid thunder');
       return;
     }
-    this.thunder = amount;
+    thunder = amount;
   }
 }

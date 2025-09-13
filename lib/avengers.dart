@@ -4,7 +4,7 @@ class Avengers{
   int _attackpower;
 
   //CONSTRUCTOR //parameter
-  Avengers({required this.name, required this.heroName, int attackpower = 1000}): this._attackpower = attackpower;
+  Avengers({required this.name, required this.heroName, int attackpower = 1000}): _attackpower = attackpower;
 
   //getter A getter is like a window that lets people LOOK at your private data, but they can't CHANGE
   int get attackpower => _attackpower;
@@ -15,7 +15,7 @@ class Avengers{
       print('invalid power actavition');
       return;
     }
-    this._attackpower = newvalueAttackpower;
+    _attackpower = newvalueAttackpower;
   }
 
   //METHOD attack
