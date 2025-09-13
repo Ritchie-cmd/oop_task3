@@ -10,12 +10,12 @@ class Avengers{
   int get attackpower => _attackpower;
 
   //setter without setter you can't change the value of a private property
-  set attackpower(int newvalue_attackpower){ //parameter
-    if(newvalue_attackpower < 0){
+  set attackpower(int newvalueAttackpower){ //parameter
+    if(newvalueAttackpower < 0){
       print('invalid power actavition');
       return;
     }
-    this._attackpower = newvalue_attackpower;
+    this._attackpower = newvalueAttackpower;
   }
 
   //METHOD attack
